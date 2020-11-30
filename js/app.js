@@ -22,12 +22,14 @@ input.addEventListener('input', (e) => {
   e.preventDefault();
 });
 
+const submit = document.getElementById('submit');
 
-$("#submit").click(function(){
+submit.click(function(){
   alert("Clicked 1");
   console.log("Clicked 1");
 });
 
+const input = document.getElementById('lbsInput');
 
 
 if ('serviceWorker' in navigator) {
