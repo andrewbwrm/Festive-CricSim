@@ -30,7 +30,7 @@ submit.click(function(){
   console.log("Clicked 1");
 });
 
-const input = document.getElementById('lbsInput');
+
 
 
 if ('serviceWorker' in navigator) {
