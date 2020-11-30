@@ -25,7 +25,7 @@ input.addEventListener('input', (e) => {
 const submit = document.getElementById('submit');
 
 
-submit.click(function(){
+submit.onclick(function(){
   alert("Clicked 1");
   console.log("Clicked 1");
 });
