@@ -1,3 +1,5 @@
+console.log("HELLO WORLD");
+
 const input = document.getElementById('lbsInput');
 const output = document.getElementById('output');
 
@@ -28,3 +30,4 @@ if ('serviceWorker' in navigator) {
     })
   })
 }
+
