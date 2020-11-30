@@ -25,8 +25,10 @@ input.addEventListener('input', (e) => {
 
 $("#submit").click(function(){
   alert("Clicked 1");
-
+  console.log("Clicked 1");
 });
+
+
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
