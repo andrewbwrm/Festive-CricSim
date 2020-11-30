@@ -25,13 +25,6 @@ input.addEventListener('input', (e) => {
 const submit = document.getElementById('submit');
 
 
-submit.onclick(function(){
-  alert("Clicked 1");
-  console.log("Clicked 1");
-});
-
-
-
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
